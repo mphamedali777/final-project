@@ -1,0 +1,104 @@
+body {
+  background-image: url(snapedit_1714718382382.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline;
+}
+.logo img {
+  width: 40px;
+  cursor: pointer;
+}
+.logo h1 {
+  color: #b5c18e;
+  /* color: #ac5481; */
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 15px;
+  padding-left: 60px;
+  cursor: pointer;
+  font-size: 50px;
+}
+ul {
+  display: flex;
+  margin-right: 20px;
+}
+ul li {
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+ul li a {
+  /* color: #b5c18e; */
+  color: #ac5481;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+}
+a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 0;
+  height: 2px;
+  background-color: #ac5481;
+}
+a:hover::before {
+  width: 100%;
+  transition: 0.7s;
+}
+.content {
+  width: 40%;
+  padding-left: 60px;
+  margin-top: 10%;
+}
+.content h2 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ac5481;
+}
+.content p {
+  line-height: 27px;
+  letter-spacing: 2.5px;
+  color: #de82b1;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 10px;
+}
+button {
+  padding: 12px;
+  margin-left: 16px;
+  border: none;
+  border-radius: 30px;
+  background: #b5c18e;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  border: 2px solid #b5c18e;
+  color: #ac5481;
+  background: transparent;
+  padding: 14px;
+  transition: 0.5s;
+  font-size: 20px;
+}
